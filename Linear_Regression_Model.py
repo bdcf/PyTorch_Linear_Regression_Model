@@ -97,6 +97,7 @@ loadModel.load_state_dict(torch.load(f=modelSavePath))
 loadModel.eval()
 with torch.inference_mode():
     predictionLoad = loadModel(xTest)
-eTensor = torch.eq(test_pred, predictionLoad)
-print(f"{eTensor}")
+# For checking the loaded models accuracy.
+#eTensor = torch.eq(test_pred, predictionLoad)
+#print(f"{eTensor}")
 
