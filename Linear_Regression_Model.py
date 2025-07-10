@@ -5,7 +5,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-
 # Data can be anything as long as it can be turned into a numerical representation. We will use 
 # linear regression to create some data on a straight line.
 weight = 0.7
